@@ -1,0 +1,42 @@
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Diagnostic and system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Dependencies
+node_modules/
+dist/
+dist-ssr/
+build/
+coverage/
+
+# Environment files and credentials
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env*.local
+!.env.example
+
+# IDE & Editor folders
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Temporary / OS caches
+.cache/
+.parcel-cache/
+.eslintcache
